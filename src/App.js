@@ -8,12 +8,28 @@ import team03 from './img/team/03.jpg';
 import about from "./img/about.jpg";
 import portfolio01large from "./img/portfolio/01-large.jpg";
 import portfolio01small from "./img/portfolio/01-small.jpg";
-import portfolio12small from "./img/portfolio/12-small.jpg";
-import portfolio12large from "./img/portfolio/12-large.jpg";
-import portfolio11small from "./img/portfolio/11-small.jpg";
 import portfolio02large from "./img/portfolio/02-large.jpg";
 import portfolio02small from "./img/portfolio/02-small.jpg";
 import portfolio03large from "./img/portfolio/03-large.jpg";
+import portfolio03small from "./img/portfolio/03-small.jpg";
+import portfolio04large from "./img/portfolio/04-large.jpg";
+import portfolio04small from "./img/portfolio/04-small.jpg";
+import portfolio05large from "./img/portfolio/05-large.jpg";
+import portfolio05small from "./img/portfolio/05-small.jpg";
+import portfolio06large from "./img/portfolio/06-large.jpg";
+import portfolio06small from "./img/portfolio/06-small.jpg";
+import portfolio07large from "./img/portfolio/07-large.jpg";
+import portfolio07small from "./img/portfolio/07-small.jpg";
+import portfolio08large from "./img/portfolio/08-large.jpg";
+import portfolio08small from "./img/portfolio/08-small.jpg";
+import portfolio09large from "./img/portfolio/09-large.jpg";
+import portfolio09small from "./img/portfolio/09-small.jpg";
+import portfolio10large from "./img/portfolio/10-large.jpg";
+import portfolio10small from "./img/portfolio/10-small.jpg";
+import portfolio11large from "./img/portfolio/11-large.jpg";
+import portfolio11small from "./img/portfolio/11-small.jpg";
+import portfolio12small from "./img/portfolio/12-small.jpg";
+import portfolio12large from "./img/portfolio/12-large.jpg";
 
 
 
@@ -248,75 +264,75 @@ class App extends Component {
                     <div class="hover-text">
                       <h4>Dish Name</h4>
                     </div>
-                    <img src="img/portfolio/03-small.jpg" class="img-responsive" alt="Project Title" /> </a> </div>
+                    <img src={portfolio03small} class="img-responsive" alt="Project Title" /> </a> </div>
                 </div>
               </div>
               <div class="col-sm-6 col-md-4 col-lg-4 breakfast">
                 <div class="portfolio-item">
-                  <div class="hover-bg"> <a href="img/portfolio/04-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
+                  <div class="hover-bg"> <a href={portfolio04large} title="Dish Name" data-lightbox-gallery="gallery1">
                     <div class="hover-text">
                       <h4>Dish Name</h4>
                     </div>
-                    <img src="./img/portfolio/04-small.jpg" class="img-responsive" alt="Project Title" /> </a> </div>
+                    <img src={portfolio04small} class="img-responsive" alt="Project Title" /> </a> </div>
                 </div>
               </div>
               <div class="col-sm-6 col-md-4 col-lg-4 dinner">
                 <div class="portfolio-item">
-                  <div class="hover-bg"> <a href="img/portfolio/05-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
+                  <div class="hover-bg"> <a href={portfolio05large} title="Dish Name" data-lightbox-gallery="gallery1">
                     <div class="hover-text">
                       <h4>Dish Name</h4>
                     </div>
-                    <img src="img/portfolio/05-small.jpg" class="img-responsive" alt="Project Title" /> </a> </div>
+                    <img src={portfolio05small} class="img-responsive" alt="Project Title" /> </a> </div>
                 </div>
               </div>
               <div class="col-sm-6 col-md-4 col-lg-4 lunch">
                 <div class="portfolio-item">
-                  <div class="hover-bg"> <a href="img/portfolio/06-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
+                  <div class="hover-bg"> <a href={portfolio06large} title="Dish Name" data-lightbox-gallery="gallery1">
                     <div class="hover-text">
                       <h4>Dish Name</h4>
                     </div>
-                    <img src="img/portfolio/06-small.jpg" class="img-responsive" alt="Project Title" /> </a> </div>
+                    <img src={portfolio06small} class="img-responsive" alt="Project Title" /> </a> </div>
                 </div>
               </div>
               <div class="col-sm-6 col-md-4 col-lg-4 lunch">
                 <div class="portfolio-item">
-                  <div class="hover-bg"> <a href="img/portfolio/07-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
+                  <div class="hover-bg"> <a href={portfolio07large} title="Dish Name" data-lightbox-gallery="gallery1">
                     <div class="hover-text">
                       <h4>Dish Name</h4>
                     </div>
-                    <img src="img/portfolio/07-small.jpg" class="img-responsive" alt="Project Title" /> </a> </div>
+                    <img src={portfolio07small} class="img-responsive" alt="Project Title" /> </a> </div>
                 </div>
               </div>
               <div class="col-sm-6 col-md-4 col-lg-4 breakfast">
                 <div class="portfolio-item">
-                  <div class="hover-bg"> <a href="img/portfolio/08-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
+                  <div class="hover-bg"> <a href={portfolio08large} title="Dish Name" data-lightbox-gallery="gallery1">
                     <div class="hover-text">
                       <h4>Dish Name</h4>
                     </div>
-                    <img src="img/portfolio/08-small.jpg" class="img-responsive" alt="Project Title" /> </a> </div>
+                    <img src={portfolio08small} class="img-responsive" alt="Project Title" /> </a> </div>
                 </div>
               </div>
               <div class="col-sm-6 col-md-4 col-lg-4 dinner">
                 <div class="portfolio-item">
-                  <div class="hover-bg"> <a href="img/portfolio/09-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
+                  <div class="hover-bg"> <a href={portfolio09large} title="Dish Name" data-lightbox-gallery="gallery1">
                     <div class="hover-text">
                       <h4>Dish Name</h4>
                     </div>
-                    <img src="img/portfolio/09-small.jpg" class="img-responsive" alt="Project Title" /> </a> </div>
+                    <img src={portfolio09small} class="img-responsive" alt="Project Title" /> </a> </div>
                 </div>
               </div>
               <div class="col-sm-6 col-md-4 col-lg-4 lunch">
                 <div class="portfolio-item">
-                  <div class="hover-bg"> <a href="img/portfolio/10-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
+                  <div class="hover-bg"> <a href={portfolio10large} title="Dish Name" data-lightbox-gallery="gallery1">
                     <div class="hover-text">
                       <h4>Dish Name</h4>
                     </div>
-                    <img src="img/portfolio/10-small.jpg" class="img-responsive" alt="Project Title" /> </a> </div>
+                    <img src={portfolio10small} class="img-responsive" alt="Project Title" /> </a> </div>
                 </div>
               </div>
               <div class="col-sm-6 col-md-4 col-lg-4 lunch">
                 <div class="portfolio-item">
-                  <div class="hover-bg"> <a href="img/portfolio/11-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
+                  <div class="hover-bg"> <a href={portfolio11large} title="Dish Name" data-lightbox-gallery="gallery1">
                     <div class="hover-text">
                       <h4>Dish Name</h4>
                     </div>
