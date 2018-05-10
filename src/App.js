@@ -427,10 +427,10 @@ class App extends Component {
               </div>
             </div>
             <div class="col-md-4">
-              <h3>Available Hours</h3>
+              <h3>Further Links</h3>
               <div class="contact-item">
-                <p>Mon-Thurs: 10:00 AM - 11:00 PM</p>
-                <p>Fri-Sun: 11:00 AM - 02:00 AM</p>
+                <p>https://www.linkedin.com/bdburns6389</p>
+                <p>https://www.github.com/bdburns6389</p>
               </div>
             </div>
             <div class="col-md-4">
