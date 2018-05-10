@@ -11,6 +11,11 @@ import portfolio01small from "./img/portfolio/01-small.jpg";
 import portfolio12small from "./img/portfolio/12-small.jpg";
 import portfolio12large from "./img/portfolio/12-large.jpg";
 import portfolio11small from "./img/portfolio/11-small.jpg";
+import portfolio02large from "./img/portfolio/02-large.jpg";
+import portfolio02small from "./img/portfolio/02-small.jpg";
+import portfolio03large from "./img/portfolio/03-large.jpg";
+
+
 
 class App extends Component {
   render() {
@@ -23,7 +28,7 @@ class App extends Component {
             {/* <!-- Brand and toggle get grouped for better mobile display --> */}
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-              <a class="navbar-brand page-scroll" href="#page-top">Touché</a> </div>
+              <a class="navbar-brand page-scroll" href="#page-top">Brian Burns</a> </div>
             {/* <!-- Collect the nav links, forms, and other content for toggling --> */}
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
@@ -44,8 +49,8 @@ class App extends Component {
               <div class="container">
                 <div class="row">
                   <div class="intro-text">
-                    <h1>Touché</h1>
-                    <p>Restaurant / Coffee / Pub</p>
+                    <h1>Brian Burns</h1>
+                    <p>Web Designer / Back-end / Front-end / Mobile</p>
                     <a href="#about" class="btn btn-custom btn-lg page-scroll">Discover Story</a> </div>
                 </div>
               </div>
@@ -230,16 +235,16 @@ class App extends Component {
               </div>
               <div class="col-sm-6 col-md-4 col-lg-4 dinner">
                 <div class="portfolio-item">
-                  <div class="hover-bg"> <a href="img/portfolio/02-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
+                  <div class="hover-bg"> <a href={portfolio02large} title="Dish Name" data-lightbox-gallery="gallery1">
                     <div class="hover-text">
                       <h4>Dish Name</h4>
                     </div>
-                    <img src="img/portfolio/02-small.jpg" class="img-responsive" alt="Project Title" /> </a> </div>
+                    <img src={portfolio02small} class="img-responsive" alt="Project Title" /> </a> </div>
                 </div>
               </div>
               <div class="col-sm-6 col-md-4 col-lg-4 breakfast">
                 <div class="portfolio-item">
-                  <div class="hover-bg"> <a href="img/portfolio/03-large.jpg" title="Dish Name" data-lightbox-gallery="gallery1">
+                  <div class="hover-bg"> <a href={portfolio03large} title="Dish Name" data-lightbox-gallery="gallery1">
                     <div class="hover-text">
                       <h4>Dish Name</h4>
                     </div>
@@ -417,12 +422,12 @@ class App extends Component {
             <div class="col-md-4">
               <h3>Address</h3>
               <div class="contact-item">
-                <p>4321 California St,</p>
-                <p>San Francisco, CA 12345</p>
+                <p>25976 183rd Street,</p>
+                <p>Leavenworth Kansas 66048</p>
               </div>
             </div>
             <div class="col-md-4">
-              <h3>Opening Hours</h3>
+              <h3>Available Hours</h3>
               <div class="contact-item">
                 <p>Mon-Thurs: 10:00 AM - 11:00 PM</p>
                 <p>Fri-Sun: 11:00 AM - 02:00 AM</p>
@@ -431,8 +436,8 @@ class App extends Component {
             <div class="col-md-4">
               <h3>Contact Info</h3>
               <div class="contact-item">
-                <p>Phone: +1 123 456 1234</p>
-                <p>Email: info@company.com</p>
+                <p>Phone: 913.240.5841</p>
+                <p>Email: bdburns6389@gmail.com</p>
               </div>
             </div>
           </div>
