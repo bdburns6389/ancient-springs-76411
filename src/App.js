@@ -34,8 +34,8 @@ class App extends Component {
               <ul class="nav navbar-nav navbar-right">
                 <li><a href="#about" class="page-scroll">About</a></li>
                 <li><a href="#restaurant-menu" class="page-scroll">Menu</a></li>
-                <li><a href="#portfolio" class="page-scroll">Gallery</a></li>
-                <li><a href="#team" class="page-scroll">Chefs</a></li>
+                <li><a href="#portfolio" class="page-scroll">Languages/Frameworks</a></li>
+                <li><a href="#team" class="page-scroll">Personal Profile</a></li>
                 <li><a href="#call-reservation" class="page-scroll">Contact</a></li>
               </ul>
             </div>
