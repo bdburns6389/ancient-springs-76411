@@ -82,7 +82,7 @@ class App extends Component {
               </div>
               <div class="col-xs-12 col-md-6">
                 <div class="about-text">
-                  <h2>Our Restaurant</h2>
+                  <h2>My Story</h2>
                   <hr />
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
                   <h3>Awarded Chefs</h3>
@@ -246,7 +246,7 @@ class App extends Component {
                     <div class="hover-text">
                       <h4>Dish Name</h4>
                     </div>
-                    <img src={portfolio01small} class="img-responsive" alt="Project Title" /> </a> </div>
+                    <img src={portfolio01small} class="img-responsive img-height-bind" alt="Project Title" /> </a> </div>
                 </div>
               </div>
               <div class="col-sm-6 col-md-4 col-lg-4 dinner">
