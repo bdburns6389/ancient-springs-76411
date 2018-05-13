@@ -212,12 +212,14 @@ header .intro-text {
 /* About Section */
 #about {
 	padding: 120px 0;
+	background-color: #333333;
 }
 #about h3 {
 	font-size: 20px;
 }
 #about .about-text {
 	margin-left: 10px;
+	color: #FFFFFF;
 }
 #about .about-img {
 	display: inline-block;

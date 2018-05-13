@@ -67,7 +67,7 @@ class App extends Component {
                 <div class="row">
                   <div class="intro-text">
                     <h1>Brian Burns</h1>
-                    <p>Web Designer / Back-end / Front-end / Mobile</p>
+                    <p>Web Designer / Front-end / Back-end / SQL</p>
                     <a href="#about" class="btn btn-custom btn-lg page-scroll">Discover Story</a> </div>
                 </div>
               </div>
@@ -79,7 +79,7 @@ class App extends Component {
           <div class="container">
             <div class="row">
               <div class="col-xs-12 col-md-6 ">
-                <div class="about-img"><img src={about} class="img-responsive" alt="" /></div>
+                <div class="about-img"><img src={about} class="img-responsive img-rounded" alt="" /></div>
               </div>
               <div class="col-xs-12 col-md-6">
                 <div class="about-text">
@@ -400,7 +400,7 @@ class App extends Component {
         {/* <!-- Call Reservation Section --> */}
         <div id="call-reservation" class="text-center">
           <div class="container">
-            <h2>Want to make a reservation? Call <strong>1-887-654-3210</strong></h2>
+            <h2>Want to make a reservation? Email <a href="mailto:bdburns6389@gmail.com">bdburns6389@gmail.com</a></h2>
           </div>
         </div>
         {/* <!-- Contact Section --> */}
