@@ -6,32 +6,18 @@ import team01 from './img/team/01.jpg';
 import team02 from './img/team/02.jpg';
 import team03 from './img/team/03.jpg';
 import about from "./img/about.jpg";
-import portfolio01large from "./img/portfolio/01-large.jpg";
 import portfolio01small from "./img/portfolio/01-small.jpg";
-import portfolio02large from "./img/portfolio/02-large.jpg";
 import portfolio02small from "./img/portfolio/02-small.jpg";
-import portfolio03large from "./img/portfolio/03-large.jpg";
 import portfolio03small from "./img/portfolio/03-small.jpg";
-import portfolio04large from "./img/portfolio/04-large.jpg";
 import portfolio04small from "./img/portfolio/04-small.jpg";
-import portfolio05large from "./img/portfolio/05-large.jpg";
 import portfolio05small from "./img/portfolio/05-small.jpg";
-import portfolio06large from "./img/portfolio/06-large.jpg";
 import portfolio06small from "./img/portfolio/06-small.jpg";
-import portfolio07large from "./img/portfolio/07-large.jpg";
 import portfolio07small from "./img/portfolio/07-small.jpg";
-import portfolio08large from "./img/portfolio/08-large.jpg";
 import portfolio08small from "./img/portfolio/08-small.jpg";
-import portfolio09large from "./img/portfolio/09-large.jpg";
 import portfolio09small from "./img/portfolio/09-small.jpg";
-import portfolio10large from "./img/portfolio/10-large.jpg";
 import portfolio10small from "./img/portfolio/10-small.jpg";
-import portfolio11large from "./img/portfolio/11-large.jpg";
 import portfolio11small from "./img/portfolio/11-small.jpg";
 import portfolio12small from "./img/portfolio/12-small.jpg";
-import portfolio12large from "./img/portfolio/12-large.jpg";
-
-
 
 class App extends Component {
   render() {
@@ -246,7 +232,7 @@ class App extends Component {
             <div class="portfolio-items">
               <div class="col-sm-6 col-md-4 col-lg-4 breakfast">
                 <div class="portfolio-item">
-                  <div class="hover-bg"> <a href={portfolio01large} title="Dish Name" data-lightbox-gallery="gallery1">
+                  <div class="hover-bg"> <a href={portfolio01small} title="Dish Name" data-lightbox-gallery="gallery1">
                     <div class="hover-text">
                       <h4>Dish Name</h4>
                     </div>
@@ -255,7 +241,7 @@ class App extends Component {
               </div>
               <div class="col-sm-6 col-md-4 col-lg-4 dinner">
                 <div class="portfolio-item">
-                  <div class="hover-bg"> <a href={portfolio02large} title="Dish Name" data-lightbox-gallery="gallery1">
+                  <div class="hover-bg"> <a href={portfolio02small} title="Dish Name" data-lightbox-gallery="gallery1">
                     <div class="hover-text">
                       <h4>Dish Name</h4>
                     </div>
@@ -264,7 +250,7 @@ class App extends Component {
               </div>
               <div class="col-sm-6 col-md-4 col-lg-4 breakfast">
                 <div class="portfolio-item">
-                  <div class="hover-bg"> <a href={portfolio03large} title="Dish Name" data-lightbox-gallery="gallery1">
+                  <div class="hover-bg"> <a href={portfolio03small} title="Dish Name" data-lightbox-gallery="gallery1">
                     <div class="hover-text">
                       <h4>Dish Name</h4>
                     </div>
@@ -273,7 +259,7 @@ class App extends Component {
               </div>
               <div class="col-sm-6 col-md-4 col-lg-4 breakfast">
                 <div class="portfolio-item">
-                  <div class="hover-bg"> <a href={portfolio04large} title="Dish Name" data-lightbox-gallery="gallery1">
+                  <div class="hover-bg"> <a href={portfolio04small} title="Dish Name" data-lightbox-gallery="gallery1">
                     <div class="hover-text">
                       <h4>Dish Name</h4>
                     </div>
@@ -282,7 +268,7 @@ class App extends Component {
               </div>
               <div class="col-sm-6 col-md-4 col-lg-4 dinner">
                 <div class="portfolio-item">
-                  <div class="hover-bg"> <a href={portfolio05large} title="Dish Name" data-lightbox-gallery="gallery1">
+                  <div class="hover-bg"> <a href={portfolio05small} title="Dish Name" data-lightbox-gallery="gallery1">
                     <div class="hover-text">
                       <h4>Dish Name</h4>
                     </div>
@@ -291,7 +277,7 @@ class App extends Component {
               </div>
               <div class="col-sm-6 col-md-4 col-lg-4 lunch">
                 <div class="portfolio-item">
-                  <div class="hover-bg"> <a href={portfolio06large} title="Dish Name" data-lightbox-gallery="gallery1">
+                  <div class="hover-bg"> <a href={portfolio06small} title="Dish Name" data-lightbox-gallery="gallery1">
                     <div class="hover-text">
                       <h4>Dish Name</h4>
                     </div>
@@ -300,7 +286,7 @@ class App extends Component {
               </div>
               <div class="col-sm-6 col-md-4 col-lg-4 lunch">
                 <div class="portfolio-item">
-                  <div class="hover-bg"> <a href={portfolio07large} title="Dish Name" data-lightbox-gallery="gallery1">
+                  <div class="hover-bg"> <a href={portfolio07small} title="Dish Name" data-lightbox-gallery="gallery1">
                     <div class="hover-text">
                       <h4>Dish Name</h4>
                     </div>
@@ -309,7 +295,7 @@ class App extends Component {
               </div>
               <div class="col-sm-6 col-md-4 col-lg-4 breakfast">
                 <div class="portfolio-item">
-                  <div class="hover-bg"> <a href={portfolio08large} title="Dish Name" data-lightbox-gallery="gallery1">
+                  <div class="hover-bg"> <a href={portfolio08small} title="Dish Name" data-lightbox-gallery="gallery1">
                     <div class="hover-text">
                       <h4>Dish Name</h4>
                     </div>
@@ -318,7 +304,7 @@ class App extends Component {
               </div>
               <div class="col-sm-6 col-md-4 col-lg-4 dinner">
                 <div class="portfolio-item">
-                  <div class="hover-bg"> <a href={portfolio09large} title="Dish Name" data-lightbox-gallery="gallery1">
+                  <div class="hover-bg"> <a href={portfolio09small} title="Dish Name" data-lightbox-gallery="gallery1">
                     <div class="hover-text">
                       <h4>Dish Name</h4>
                     </div>
@@ -327,7 +313,7 @@ class App extends Component {
               </div>
               <div class="col-sm-6 col-md-4 col-lg-4 lunch">
                 <div class="portfolio-item">
-                  <div class="hover-bg"> <a href={portfolio10large} title="Dish Name" data-lightbox-gallery="gallery1">
+                  <div class="hover-bg"> <a href={portfolio10small} title="Dish Name" data-lightbox-gallery="gallery1">
                     <div class="hover-text">
                       <h4>Dish Name</h4>
                     </div>
@@ -336,7 +322,7 @@ class App extends Component {
               </div>
               <div class="col-sm-6 col-md-4 col-lg-4 lunch">
                 <div class="portfolio-item">
-                  <div class="hover-bg"> <a href={portfolio11large} title="Dish Name" data-lightbox-gallery="gallery1">
+                  <div class="hover-bg"> <a href={portfolio11small} title="Dish Name" data-lightbox-gallery="gallery1">
                     <div class="hover-text">
                       <h4>Dish Name</h4>
                     </div>
@@ -345,7 +331,7 @@ class App extends Component {
               </div>
               <div class="col-sm-6 col-md-4 col-lg-4 breakfast">
                 <div class="portfolio-item">
-                  <div class="hover-bg"> <a href={portfolio12large} title="Dish Name" data-lightbox-gallery="gallery1">
+                  <div class="hover-bg"> <a href={portfolio12small} title="Dish Name" data-lightbox-gallery="gallery1">
                     <div class="hover-text">
                       <h4>Dish Name</h4>
                     </div>
