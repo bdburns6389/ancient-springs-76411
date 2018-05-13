@@ -231,7 +231,7 @@ header .intro-text {
 	right: 8px;
 	bottom: 8px;
 	left: 8px;
-	border: 1px solid rgba(255, 255, 255, 0.5);
+	/*border: 1px solid rgba(255, 255, 255, 0.5);*/
 }
 #about p {
 	line-height: 24px;
@@ -379,7 +379,7 @@ ol.type li a:hover {
 	right: 6px;
 	bottom: 6px;
 	left: 6px;
-	border: 1px solid rgba(255, 255, 255, 0.6);
+	/*border: 1px solid rgba(255, 255, 255, 0.6);*/
 }
 .hover-bg .hover-text {
 	position: absolute;
@@ -453,7 +453,7 @@ ol.type li a:hover {
 	right: 8px;
 	bottom: 8px;
 	left: 8px;
-	border: 1px solid rgba(255, 255, 255, 0.2);
+	/*border: 1px solid rgba(255, 255, 255, 0.2);*/
 }
 #team .thumbnail .caption {
 	padding-top: 10px;

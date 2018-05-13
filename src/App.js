@@ -44,14 +44,15 @@ class App extends Component {
             {/* <!-- Brand and toggle get grouped for better mobile display --> */}
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-              <a class="navbar-brand page-scroll" href="#page-top">Brian Burns</a> </div>
+              <a class="navbar-brand page-scroll" href="#page-top">Brian Burns</a> 
+            </div>
             {/* <!-- Collect the nav links, forms, and other content for toggling --> */}
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
                 <li><a href="#about" class="page-scroll">About</a></li>
                 <li><a href="#restaurant-menu" class="page-scroll">Menu</a></li>
                 <li><a href="#portfolio" class="page-scroll">Languages/Frameworks</a></li>
-                <li><a href="#team" class="page-scroll">Personal Profile</a></li>
+                <li><a href="#team" class="page-scroll">Personal Projects</a></li>
                 <li><a href="#call-reservation" class="page-scroll">Contact</a></li>
               </ul>
             </div>
@@ -85,7 +86,7 @@ class App extends Component {
                   <h2>My Story</h2>
                   <hr />
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
-                  <h3>Awarded Chefs</h3>
+                  <h3>Where I am Now</h3>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare.</p>
                 </div>
               </div>
@@ -215,9 +216,12 @@ class App extends Component {
           <div id="portfolio">
             <div class="section-title text-center center">
               <div class="overlay">
-                <h2>Gallery</h2>
+                <h2>Languages/Frameworks</h2>
                 <hr />
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed.</p>
+                <p>Listed Below are some of the languages and frameworks I have interest in, 
+                  as well as some of the technologies 
+                  I use to make my development process easier
+                </p>
               </div>
             </div>
             <div class="container">
@@ -246,7 +250,7 @@ class App extends Component {
                     <div class="hover-text">
                       <h4>Dish Name</h4>
                     </div>
-                    <img src={portfolio01small} class="img-responsive img-height-bind" alt="Project Title" /> </a> </div>
+                    <img src={portfolio01small} class="img-responsive" alt="Project Title" /> </a> </div>
                 </div>
               </div>
               <div class="col-sm-6 col-md-4 col-lg-4 dinner">
@@ -357,7 +361,7 @@ class App extends Component {
           <div class="overlay">
             <div class="container">
               <div class="col-md-10 col-md-offset-1 section-title">
-                <h2>Meet Our Chefs</h2>
+                <h2>Personal Projects</h2>
                 <hr />
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.</p>
               </div>
@@ -445,7 +449,7 @@ class App extends Component {
             <div class="col-md-4">
               <h3>Further Links</h3>
               <div class="contact-item">
-                <p>https://www.linkedin.com/bdburns6389</p>
+                <p>https://www.linkedin.com/in/bdburns6389</p>
                 <p>https://www.github.com/bdburns6389</p>
               </div>
             </div>
