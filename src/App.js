@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './App.css';
 import './css/style.css';
-import team01 from './img/team/01.jpg';
-import team02 from './img/team/02.jpg';
-import team03 from './img/team/03.jpg';
+import team01 from './img/team/01.png';
+import team02 from './img/team/02.png';
+import team03 from './img/team/03.png';
 import about from "./img/about.jpg";
 
 
@@ -59,9 +59,12 @@ class App extends Component {
                 <div className="about-text">
                   <h2>My Story</h2>
                   <hr />
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
-                  <h3>Where I am Now</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare.</p>
+                  <p>I have enjoyed programming websites from a young age, and have experience in building front facing websites, 
+                    as well as server-side rendering applications, as well as database manipulation programs.
+                  </p>
+                  <h3>How I can help you</h3>
+                  <p>I build websites with a simple, clean, and elegant look.  I focus on exactly what you want to say 
+                    to your customers, and I avoid extra fluff that doesn't provide function use.</p>
                 </div>
               </div>
             </div>
@@ -73,7 +76,7 @@ class App extends Component {
             <div className="overlay">
               <h2>Development Philosophy</h2>
               <hr />
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed.</p>
+              <p></p>
             </div>
           </div>
           <div className="container">
@@ -83,9 +86,10 @@ class App extends Component {
                   <h2 className="menu-section-title">Simple, Clean Design</h2>
                   <hr />
                   <div className="menu-item">
-                    <div className="menu-item-name"> Delicious Dish </div>
-                    <div className="menu-item-price"> $35 </div>
-                    <div className="menu-item-description"> g elit, duis sed dapibus leo nec ornare diam. </div>
+                    <div className="menu-item-description">You know what you want to tell your customers, let me help
+                      get your message across with out the need for superfluous design that only gets in the way of 
+                      communicating your message.
+                    </div>
                   </div>
                 </div>
               </div>
@@ -94,9 +98,8 @@ class App extends Component {
                   <h2 className="menu-section-title">Well Structured Data</h2>
                   <hr />
                   <div className="menu-item">
-                    <div className="menu-item-name"> Delicious Dish </div>
-                    <div className="menu-item-price"> $45 </div>
-                    <div className="menu-item-description"> Lorem ipsum dolor sit amet, duis sed dapibus leo nec ornare diam. </div>
+                    <div className="menu-item-description">You've got data.  Let me help you organize it in a way that it will better help
+                      you understand and reach your customer base. </div>
                   </div>
                 </div>
               </div>

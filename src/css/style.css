@@ -287,6 +287,7 @@ header .intro-text {
 #restaurant-menu .menu-item-description {
 	font-style: italic;
 	font-size: 15px;
+	color: white;
 }
 #restaurant-menu .menu-item-price {
 	float: right;
