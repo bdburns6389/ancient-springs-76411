@@ -134,106 +134,18 @@ class App extends Component {
               </div>
             </div>
           </div>
-          </div>
-          {/* <!-- Portfolio Section --> */}
-          <div id="portfolio">
-            <div className="section-title text-center center">
-              <div className="overlay">
-                <h2>Languages/Frameworks</h2>
-                <hr />
-                <p>Listed Below are some of the languages and frameworks I have interest in,
-                  as well as some of the technologies
-                  I use to make my development process easier
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="portfolio-items">
-              {/* <div className="col-sm-6 col-md-4 col-lg-4">
-                <div className="portfolio-item">
-                  <div> <a href={portfolio01small} title="">
-                    <img src={portfolio01small} className="img-responsive" alt="" /> </a> </div>
-                </div>
-              </div> */}
-              <div className="col-sm-6 col-md-4 col-lg-4">
-                <div className="portfolio-item">
-                  <div> <a href={portfolio02small} title="">
-                    <img src={portfolio02small} className="img-responsive" alt="" /> </a> </div>
-                </div>
-              </div>
-              {/* <div className="col-sm-6 col-md-4 col-lg-4">
-                <div className="portfolio-item">
-                  <div className="hover-bg"> <a href={portfolio03small} title="">
-                    <img src={portfolio03small} className="img-responsive" alt="" /> </a> </div>
-                </div>
-              </div>
-              <div className="col-sm-6 col-md-4 col-lg-4">
-                <div className="portfolio-item">
-                  <div className="hover-bg"> <a href={portfolio04small} title="">
-                    <img src={portfolio04small} className="img-responsive" alt="" /> </a> </div>
-                </div>
-              </div> */}
-              <div className="col-sm-6 col-md-4 col-lg-4">
-                <div className="portfolio-item">
-                  <div className="hover-bg"> <a href={portfolio05small} title="">
-                    <img src={portfolio05small} className="img-responsive" alt="" /> </a> </div>
-                </div>
-              </div>
-              {/* <div className="col-sm-6 col-md-4 col-lg-4">
-                <div className="portfolio-item">
-                  <div className="hover-bg"> <a href={portfolio06small} title="">
-                    <img src={portfolio06small} className="img-responsive" alt="" /> </a> </div>
-                </div>
-              </div>
-              <div className="col-sm-6 col-md-4 col-lg-4">
-                <div className="portfolio-item">
-                  <div className="hover-bg"> <a href={portfolio07small} title="">
-                    <img src={portfolio07small} className="img-responsive" alt="" /> </a> </div>
-                </div>
-              </div> */}
-              <div className="col-sm-6 col-md-4 col-lg-4">
-                <div className="portfolio-item">
-                  <div className="hover-bg"> <a href={portfolio08small} title="">
-                    <img src={portfolio08small} className="img-responsive" alt="" /> </a> </div>
-                </div>
-              </div>
-              {/* <div className="col-sm-6 col-md-4 col-lg-4">
-                <div className="portfolio-item">
-                  <div className="hover-bg"> <a href={portfolio09small} title="">
-                    <img src={portfolio09small} className="img-responsive" alt="" /> </a> </div>
-                </div>
-              </div> */}
-              {/* <div className="col-sm-6 col-md-4 col-lg-4">
-                <div className="portfolio-item">
-                  <div className="hover-bg"> <a href={portfolio10small} title="">
-                    <img src={portfolio10small} className="img-responsive" alt="" /> </a> </div>
-                </div>
-              </div> */}
-              {/* <div className="col-sm-6 col-md-4 col-lg-4">
-                <div className="portfolio-item">
-                  <div className="hover-bg"> <a href={portfolio11small} title="">
-                    <img src={portfolio11small} className="img-responsive" alt="" /> </a> </div>
-                </div>
-              </div> */}
-              {/* <div className="col-sm-6 col-md-4 col-lg-4">
-                <div className="portfolio-item">
-                  <div className="hover-bg"> <a href={portfolio12small} title="">
-                    <img src={portfolio12small} className="img-responsive" alt="" /> </a> </div>
-                </div>
-              </div> */}
-            </div>
-          </div>
-        
+        </div>
 
         {/* <!-- Team Section --> */}
         <div id="team" className="text-center">
           <div className="overlay">
             <div className="container">
               <div className="col-md-10 col-md-offset-1 section-title">
-                <h2>Personal Projects</h2>
+                <h2>What I Do</h2>
                 <hr />
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.</p>
+                <p>What can I help you with?  I build anything from single page websites to full fledged persistent apps
+                  with data logistics.
+                </p>
               </div>
               <div id="row">
                 <div className="col-md-4 team">
@@ -333,13 +245,6 @@ class App extends Component {
           </div>
           <div className="container-fluid text-center copyrights">
             <div className="col-md-8 col-md-offset-2">
-              <div className="social">
-                <ul>
-                  <li><a href="#"><i className="fa fa-facebook"></i></a></li>
-                  <li><a href="#"><i className="fa fa-twitter"></i></a></li>
-                  <li><a href="#"><i className="fa fa-google-plus"></i></a></li>
-                </ul>
-              </div>
               <p>&copy; Built and Maintained By  <a href="http://www.bdburns6389.com" rel="nofollow">Brian Burns</a></p>
             </div>
           </div>

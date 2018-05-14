@@ -264,6 +264,7 @@ header .intro-text {
 }
 #restaurant-menu .menu-section {
 	margin: 0 20px 80px;
+	background-color: #333333;
 }
 #restaurant-menu .menu-section-title {
 	font-size: 26px;
@@ -500,6 +501,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8eb640', end
 #contact {
 	padding: 100px 0 60px 0;
 	background: #333333;
+	color: #FFF;
 }
 #contact .section-title p {
 	color: #777;
