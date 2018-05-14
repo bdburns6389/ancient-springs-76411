@@ -5,9 +5,7 @@ import team01 from './img/team/01.jpg';
 import team02 from './img/team/02.jpg';
 import team03 from './img/team/03.jpg';
 import about from "./img/about.jpg";
-import portfolio02small from "./img/portfolio/02-small.png";
-import portfolio05small from "./img/portfolio/05-small.png";
-import portfolio08small from "./img/portfolio/08-small.png";
+
 
 class App extends Component {
   render() {
@@ -73,7 +71,7 @@ class App extends Component {
         <div id="restaurant-menu">
           <div className="section-title text-center center">
             <div className="overlay">
-              <h2>Menu</h2>
+              <h2>Development Philosophy</h2>
               <hr />
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed.</p>
             </div>
@@ -82,52 +80,22 @@ class App extends Component {
             <div className="row">
               <div className="col-xs-12 col-sm-6">
                 <div className="menu-section">
-                  <h2 className="menu-section-title">Breakfast & Starters</h2>
+                  <h2 className="menu-section-title">Simple, Clean Design</h2>
                   <hr />
                   <div className="menu-item">
                     <div className="menu-item-name"> Delicious Dish </div>
                     <div className="menu-item-price"> $35 </div>
                     <div className="menu-item-description"> g elit, duis sed dapibus leo nec ornare diam. </div>
                   </div>
-                  <div className="menu-item">
-                    <div className="menu-item-name"> Delicious Dish </div>
-                    <div className="menu-item-price"> $30 </div>
-                    <div className="menu-item-description"> Lorem ipsum dolor sit amet,dapibus leo nec ornare diam. </div>
-                  </div>
-                  <div className="menu-item">
-                    <div className="menu-item-name"> Delicious Dish </div>
-                    <div className="menu-item-price"> $30 </div>
-                    <div className="menu-item-description"> Lorem ipsum dolor sit amet, consectetur, dapibus leo nec ornare diam. </div>
-                  </div>
-                  <div className="menu-item">
-                    <div className="menu-item-name"> Delicious Dish </div>
-                    <div className="menu-item-price"> $30 </div>
-                    <div className="menu-item-description"> Lorem ipsum dolor sit amet, duis sed dapibus leo nec ornare diam. </div>
-                  </div>
                 </div>
               </div>
               <div className="col-xs-12 col-sm-6">
                 <div className="menu-section">
-                  <h2 className="menu-section-title">Main Course</h2>
+                  <h2 className="menu-section-title">Well Structured Data</h2>
                   <hr />
                   <div className="menu-item">
                     <div className="menu-item-name"> Delicious Dish </div>
                     <div className="menu-item-price"> $45 </div>
-                    <div className="menu-item-description"> Lorem ipsum dolor sit amet, duis sed dapibus leo nec ornare diam. </div>
-                  </div>
-                  <div className="menu-item">
-                    <div className="menu-item-name"> Delicious Dish </div>
-                    <div className="menu-item-price"> $30 </div>
-                    <div className="menu-item-description"> Lorem ipsum dolor sit amet, duis sed dapibus leo nec ornare diam. </div>
-                  </div>
-                  <div className="menu-item">
-                    <div className="menu-item-name"> Delicious Dish </div>
-                    <div className="menu-item-price"> $30 </div>
-                    <div className="menu-item-description"> Lorem ipsum dolor sit amet, duis sed dapibus leo nec ornare diam. </div>
-                  </div>
-                  <div className="menu-item">
-                    <div className="menu-item-name"> Delicious Dish </div>
-                    <div className="menu-item-price"> $30 </div>
                     <div className="menu-item-description"> Lorem ipsum dolor sit amet, duis sed dapibus leo nec ornare diam. </div>
                   </div>
                 </div>
