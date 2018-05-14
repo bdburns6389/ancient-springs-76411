@@ -386,7 +386,7 @@ class App extends Component {
         {/* <!-- Call Reservation Section --> */}
         <div id="call-reservation" class="text-center">
           <div class="container">
-            <h2>Want to make a reservation? Email <a href="mailto:bdburns6389@gmail.com">bdburns6389@gmail.com</a></h2>
+            <h2>Interested in how I can help you? Email <a href="mailto:bdburns6389@gmail.com">bdburns6389@gmail.com</a></h2>
           </div>
         </div>
         {/* <!-- Contact Section --> */}
@@ -435,8 +435,8 @@ class App extends Component {
             <div class="col-md-4">
               <h3>Further Links</h3>
               <div class="contact-item">
-                <p>https://www.linkedin.com/in/bdburns6389</p>
-                <p>https://www.github.com/bdburns6389</p>
+                <p><a href='https://www.linkedin.com/in/bdburns6389'>https://www.linkedin.com/in/bdburns6389</a></p>
+                <p><a href='https://www.github.com/bdburns6389'>https://www.github.com/bdburns6389</a></p>
               </div>
             </div>
             <div class="col-md-4">

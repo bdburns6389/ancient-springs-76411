@@ -2,7 +2,7 @@ body, html {
 	font-family: 'Raleway', sans-serif;
 	text-rendering: optimizeLegibility !important;
 	-webkit-font-smoothing: antialiased !important;
-	color: #777;
+	color: #FFF;
 	font-weight: 300;
 	width: 100% !important;
 	height: 100% !important;
@@ -11,19 +11,19 @@ h2 {
 	margin: 0 0 20px 0;
 	font-weight: 500;
 	font-size: 34px;
-	color: #333;
+	color: #FFF;
 	text-transform: uppercase;
 }
 h3 {
 	font-size: 22px;
 	font-weight: 500;
-	color: #333;
+	color: #FFF;
 }
 h4 {
 	font-size: 24px;
 	text-transform: uppercase;
 	font-weight: 400;
-	color: #333;
+	color: #FFF;
 }
 h5 {
 	text-transform: uppercase;
@@ -42,7 +42,7 @@ a {
 }
 a:hover, a:focus {
 	text-decoration: none;
-	color: #222;
+	color: #FFF;
 }
 ul, ol {
 	list-style: none;
@@ -242,6 +242,7 @@ header .intro-text {
 /* Menu Section */
 #restaurant-menu {
 	padding: 0 0 60px 0;
+	background-color: #333333
 }
 #restaurant-menu .section-title {
 	background: #444 url(../img/menu-bg.jpg) center center no-repeat fixed;
@@ -268,7 +269,7 @@ header .intro-text {
 	font-size: 26px;
 	display: block;
 	font-weight: 500;
-	color: #444;
+	color: #FFF;
 	margin: 20px 0;
 	text-align: center;
 }
@@ -321,7 +322,7 @@ ol.type li a {
 	font-weight: 500;
 	font-size: 14px;
 	padding: 12px 24px;
-	background: #eee;
+	background: #333333;
 	border: 0;
 	border-radius: 0;
 	text-transform: uppercase;
@@ -428,7 +429,7 @@ ol.type li a:hover {
 	color: #fff;
 }
 #team hr {
-	background: #fff;
+	background: #333333;
 }
 #team h3 {
 	color: #fff;
@@ -498,7 +499,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8eb640', end
 /* Contact Section */
 #contact {
 	padding: 100px 0 60px 0;
-	background: #F6F6F6;
+	background: #333333;
 }
 #contact .section-title p {
 	color: #777;
@@ -510,7 +511,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8eb640', end
 	text-transform: uppercase;
 	font-size: 20px;
 	font-weight: 400;
-	color: #555;
+	color: #FFF;
 }
 #contact .text-danger {
 	color: #cc0033;
