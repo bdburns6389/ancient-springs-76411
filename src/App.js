@@ -24,9 +24,8 @@ class App extends Component {
             <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul className="nav navbar-nav navbar-right">
                 <li><a href="#about" className="page-scroll">About</a></li>
-                <li><a href="#restaurant-menu" className="page-scroll">Menu</a></li>
-                <li><a href="#portfolio" className="page-scroll">Languages/Frameworks</a></li>
-                <li><a href="#team" className="page-scroll">Personal Projects</a></li>
+                <li><a href="#restaurant-menu" className="page-scroll">Development Philosophy</a></li>
+                <li><a href="#team" className="page-scroll">What I Do</a></li>
                 <li><a href="#call-reservation" className="page-scroll">Contact</a></li>
               </ul>
             </div>
@@ -123,8 +122,8 @@ class App extends Component {
                   <div className="thumbnail">
                     <div className="team-img"><img src={team01} alt="..." /></div>
                     <div className="caption">
-                      <h3>Mike Doe</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam.</p>
+                      <h3>React JS</h3>
+                      <p>Using React JS, I can build you reactive, highly customizable websites.</p>
                     </div>
                   </div>
                 </div>
@@ -132,8 +131,8 @@ class App extends Component {
                   <div className="thumbnail">
                     <div className="team-img"><img src={team02} alt="..." /></div>
                     <div className="caption">
-                      <h3>Chris Doe</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam.</p>
+                      <h3>Server-Side Rendering</h3>
+                      <p>If you need a little more punch to your website, I also am experienced in back-end programming.</p>
                     </div>
                   </div>
                 </div>
@@ -141,8 +140,9 @@ class App extends Component {
                   <div className="thumbnail">
                     <div className="team-img"><img src={team03} alt="..." /></div>
                     <div className="caption">
-                      <h3>Ethan Doe</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam.</p>
+                      <h3>SQL</h3>
+                      <p>Need a little data manipulation?  With MySQL, I can take your data and help you organize and
+                        better understand it.</p>
                     </div>
                   </div>
                 </div>
