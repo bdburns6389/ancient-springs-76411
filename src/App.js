@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import './css/style.css';
 import team01 from './img/team/01.jpg';
@@ -25,21 +24,21 @@ class App extends Component {
       <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
         {/* <!-- Navigation
             ==========================================--> */}
-        <nav id="menu" class="navbar navbar-default navbar-fixed-top">
-          <div class="container">
+        <nav id="menu" className="navbar navbar-default navbar-fixed-top">
+          <div className="container">
             {/* <!-- Brand and toggle get grouped for better mobile display --> */}
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-              <a class="navbar-brand page-scroll" href="#page-top">Brian Burns</a> 
+            <div className="navbar-header">
+              <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span className="sr-only">Toggle navigation</span> <span className="icon-bar"></span> <span className="icon-bar"></span> <span className="icon-bar"></span> </button>
+              <a className="navbar-brand page-scroll" href="#page-top">Brian Burns</a>
             </div>
             {/* <!-- Collect the nav links, forms, and other content for toggling --> */}
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav navbar-right">
-                <li><a href="#about" class="page-scroll">About</a></li>
-                <li><a href="#restaurant-menu" class="page-scroll">Menu</a></li>
-                <li><a href="#portfolio" class="page-scroll">Languages/Frameworks</a></li>
-                <li><a href="#team" class="page-scroll">Personal Projects</a></li>
-                <li><a href="#call-reservation" class="page-scroll">Contact</a></li>
+            <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul className="nav navbar-nav navbar-right">
+                <li><a href="#about" className="page-scroll">About</a></li>
+                <li><a href="#restaurant-menu" className="page-scroll">Menu</a></li>
+                <li><a href="#portfolio" className="page-scroll">Languages/Frameworks</a></li>
+                <li><a href="#team" className="page-scroll">Personal Projects</a></li>
+                <li><a href="#call-reservation" className="page-scroll">Contact</a></li>
               </ul>
             </div>
             {/* <!-- /.navbar-collapse --> */}
@@ -47,14 +46,14 @@ class App extends Component {
         </nav>
         {/* <!-- Header --> */}
         <header id="header">
-          <div class="intro">
-            <div class="overlay">
-              <div class="container">
-                <div class="row">
-                  <div class="intro-text">
+          <div className="intro">
+            <div className="overlay">
+              <div className="container">
+                <div className="row">
+                  <div className="intro-text">
                     <h1>Brian Burns</h1>
                     <p>Web Designer / Front-end / Back-end / SQL</p>
-                    <a href="#about" class="btn btn-custom btn-lg page-scroll">Discover Story</a> </div>
+                    <a href="#about" className="btn btn-custom btn-lg page-scroll">Discover Story</a> </div>
                 </div>
               </div>
             </div>
@@ -62,13 +61,13 @@ class App extends Component {
         </header>
         {/* <!-- About Section --> */}
         <div id="about">
-          <div class="container">
-            <div class="row">
-              <div class="col-xs-12 col-md-6 ">
-                <div class="about-img"><img src={about} class="img-responsive img-rounded" alt="" /></div>
+          <div className="container">
+            <div className="row">
+              <div className="col-xs-12 col-md-6 ">
+                <div className="about-img"><img src={about} className="img-responsive img-rounded" alt="" /></div>
               </div>
-              <div class="col-xs-12 col-md-6">
-                <div class="about-text">
+              <div className="col-xs-12 col-md-6">
+                <div className="about-text">
                   <h2>My Story</h2>
                   <hr />
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam. Sed commodo nibh ante facilisis bibendum dolor feugiat at. Duis sed dapibus leo nec ornare diam commodo nibh.</p>
@@ -81,299 +80,193 @@ class App extends Component {
         </div>
         {/* <!-- Restaurant Menu Section --> */}
         <div id="restaurant-menu">
-          <div class="section-title text-center center">
-            <div class="overlay">
+          <div className="section-title text-center center">
+            <div className="overlay">
               <h2>Menu</h2>
               <hr />
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed.</p>
             </div>
           </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-xs-12 col-sm-6">
-                <div class="menu-section">
-                  <h2 class="menu-section-title">Breakfast & Starters</h2>
+          <div className="container">
+            <div className="row">
+              <div className="col-xs-12 col-sm-6">
+                <div className="menu-section">
+                  <h2 className="menu-section-title">Breakfast & Starters</h2>
                   <hr />
-                  <div class="menu-item">
-                    <div class="menu-item-name"> Delicious Dish </div>
-                    <div class="menu-item-price"> $35 </div>
-                    <div class="menu-item-description"> g elit, duis sed dapibus leo nec ornare diam. </div>
+                  <div className="menu-item">
+                    <div className="menu-item-name"> Delicious Dish </div>
+                    <div className="menu-item-price"> $35 </div>
+                    <div className="menu-item-description"> g elit, duis sed dapibus leo nec ornare diam. </div>
                   </div>
-                  <div class="menu-item">
-                    <div class="menu-item-name"> Delicious Dish </div>
-                    <div class="menu-item-price"> $30 </div>
-                    <div class="menu-item-description"> Lorem ipsum dolor sit amet,dapibus leo nec ornare diam. </div>
+                  <div className="menu-item">
+                    <div className="menu-item-name"> Delicious Dish </div>
+                    <div className="menu-item-price"> $30 </div>
+                    <div className="menu-item-description"> Lorem ipsum dolor sit amet,dapibus leo nec ornare diam. </div>
                   </div>
-                  <div class="menu-item">
-                    <div class="menu-item-name"> Delicious Dish </div>
-                    <div class="menu-item-price"> $30 </div>
-                    <div class="menu-item-description"> Lorem ipsum dolor sit amet, consectetur, dapibus leo nec ornare diam. </div>
+                  <div className="menu-item">
+                    <div className="menu-item-name"> Delicious Dish </div>
+                    <div className="menu-item-price"> $30 </div>
+                    <div className="menu-item-description"> Lorem ipsum dolor sit amet, consectetur, dapibus leo nec ornare diam. </div>
                   </div>
-                  <div class="menu-item">
-                    <div class="menu-item-name"> Delicious Dish </div>
-                    <div class="menu-item-price"> $30 </div>
-                    <div class="menu-item-description"> Lorem ipsum dolor sit amet, duis sed dapibus leo nec ornare diam. </div>
+                  <div className="menu-item">
+                    <div className="menu-item-name"> Delicious Dish </div>
+                    <div className="menu-item-price"> $30 </div>
+                    <div className="menu-item-description"> Lorem ipsum dolor sit amet, duis sed dapibus leo nec ornare diam. </div>
                   </div>
                 </div>
               </div>
-              <div class="col-xs-12 col-sm-6">
-                <div class="menu-section">
-                  <h2 class="menu-section-title">Main Course</h2>
+              <div className="col-xs-12 col-sm-6">
+                <div className="menu-section">
+                  <h2 className="menu-section-title">Main Course</h2>
                   <hr />
-                  <div class="menu-item">
-                    <div class="menu-item-name"> Delicious Dish </div>
-                    <div class="menu-item-price"> $45 </div>
-                    <div class="menu-item-description"> Lorem ipsum dolor sit amet, duis sed dapibus leo nec ornare diam. </div>
+                  <div className="menu-item">
+                    <div className="menu-item-name"> Delicious Dish </div>
+                    <div className="menu-item-price"> $45 </div>
+                    <div className="menu-item-description"> Lorem ipsum dolor sit amet, duis sed dapibus leo nec ornare diam. </div>
                   </div>
-                  <div class="menu-item">
-                    <div class="menu-item-name"> Delicious Dish </div>
-                    <div class="menu-item-price"> $30 </div>
-                    <div class="menu-item-description"> Lorem ipsum dolor sit amet, duis sed dapibus leo nec ornare diam. </div>
+                  <div className="menu-item">
+                    <div className="menu-item-name"> Delicious Dish </div>
+                    <div className="menu-item-price"> $30 </div>
+                    <div className="menu-item-description"> Lorem ipsum dolor sit amet, duis sed dapibus leo nec ornare diam. </div>
                   </div>
-                  <div class="menu-item">
-                    <div class="menu-item-name"> Delicious Dish </div>
-                    <div class="menu-item-price"> $30 </div>
-                    <div class="menu-item-description"> Lorem ipsum dolor sit amet, duis sed dapibus leo nec ornare diam. </div>
+                  <div className="menu-item">
+                    <div className="menu-item-name"> Delicious Dish </div>
+                    <div className="menu-item-price"> $30 </div>
+                    <div className="menu-item-description"> Lorem ipsum dolor sit amet, duis sed dapibus leo nec ornare diam. </div>
                   </div>
-                  <div class="menu-item">
-                    <div class="menu-item-name"> Delicious Dish </div>
-                    <div class="menu-item-price"> $30 </div>
-                    <div class="menu-item-description"> Lorem ipsum dolor sit amet, duis sed dapibus leo nec ornare diam. </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-xs-12 col-sm-6">
-                <div class="menu-section">
-                  <h2 class="menu-section-title">Dinner</h2>
-                  <hr />
-                  <div class="menu-item">
-                    <div class="menu-item-name"> Delicious Dish </div>
-                    <div class="menu-item-price"> $45 </div>
-                    <div class="menu-item-description"> Lorem ipsum dolor sit amet, duis sed dapibus leo nec ornare diam. </div>
-                  </div>
-                  <div class="menu-item">
-                    <div class="menu-item-name"> Delicious Dish </div>
-                    <div class="menu-item-price"> $350 </div>
-                    <div class="menu-item-description"> Lorem ipsum dolor sit amet, duis sed dapibus leo nec ornare diam. </div>
-                  </div>
-                  <div class="menu-item">
-                    <div class="menu-item-name"> Delicious Dish </div>
-                    <div class="menu-item-price"> $30 </div>
-                    <div class="menu-item-description"> Lorem ipsum dolor sit amet, duis sed dapibus leo nec ornare diam.. </div>
-                  </div>
-                  <div class="menu-item">
-                    <div class="menu-item-name"> Delicious Dish </div>
-                    <div class="menu-item-price"> $30 </div>
-                    <div class="menu-item-description"> Lorem ipsum dolor sit amet, duis sed dapibus leo nec ornare diam. </div>
-                  </div>
-                </div>
-                <div class="col-xs-12 col-sm-6">
-                  <div class="menu-section">
-                    <h2 class="menu-section-title">Coffee & Drinks</h2>
-                    <hr />
-                    <div class="menu-item">
-                      <div class="menu-item-name"> Delicious Dish </div>
-                      <div class="menu-item-price"> $35 </div>
-                      <div class="menu-item-description"> Lorem ipsum dolor sit amet, duis sed dapibus leo nec ornare diam. </div>
-                    </div>
-                    <div class="menu-item">
-                      <div class="menu-item-name"> Delicious Dish </div>
-                      <div class="menu-item-price"> $30 </div>
-                      <div class="menu-item-description"> Lorem ipsum dolor sit amet, duis sed dapibus leo nec ornare diam. </div>
-                    </div>
-                    <div class="menu-item">
-                      <div class="menu-item-name"> Delicious Dish </div>
-                      <div class="menu-item-price"> $30 </div>
-                      <div class="menu-item-description"> Lorem ipsum dolor sit amet, duis sed dapibus leo nec ornare diam. </div>
-                    </div>
-                    <div class="menu-item">
-                      <div class="menu-item-name"> Delicious Dish </div>
-                      <div class="menu-item-price"> $30 </div>
-                      <div class="menu-item-description"> Lorem ipsum dolor sit amet, duis sed dapibus leo nec ornare diam. </div>
-                    </div>
+                  <div className="menu-item">
+                    <div className="menu-item-name"> Delicious Dish </div>
+                    <div className="menu-item-price"> $30 </div>
+                    <div className="menu-item-description"> Lorem ipsum dolor sit amet, duis sed dapibus leo nec ornare diam. </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
+          </div>
           {/* <!-- Portfolio Section --> */}
           <div id="portfolio">
-            <div class="section-title text-center center">
-              <div class="overlay">
+            <div className="section-title text-center center">
+              <div className="overlay">
                 <h2>Languages/Frameworks</h2>
                 <hr />
-                <p>Listed Below are some of the languages and frameworks I have interest in, 
-                  as well as some of the technologies 
+                <p>Listed Below are some of the languages and frameworks I have interest in,
+                  as well as some of the technologies
                   I use to make my development process easier
                 </p>
               </div>
             </div>
-            <div class="container">
-              <div class="row">
-                <div class="categories">
-                  <ul class="cat">
-                    <li>
-                      <ol class="type">
-                        <li><a href="#" data-filter="*" class="active">All</a></li>
-                        <li><a href="#" data-filter=".breakfast">Breakfast</a></li>
-                        <li><a href="#" data-filter=".lunch">Lunch</a></li>
-                        <li><a href="#" data-filter=".dinner">Dinner</a></li>
-                      </ol>
-                    </li>
-                  </ul>
-                  <div class="clearfix"></div>
+          </div>
+          <div className="row">
+            <div className="portfolio-items">
+              {/* <div className="col-sm-6 col-md-4 col-lg-4">
+                <div className="portfolio-item">
+                  <div> <a href={portfolio01small} title="">
+                    <img src={portfolio01small} className="img-responsive" alt="" /> </a> </div>
+                </div>
+              </div> */}
+              <div className="col-sm-6 col-md-4 col-lg-4">
+                <div className="portfolio-item">
+                  <div> <a href={portfolio02small} title="">
+                    <img src={portfolio02small} className="img-responsive" alt="" /> </a> </div>
                 </div>
               </div>
+              {/* <div className="col-sm-6 col-md-4 col-lg-4">
+                <div className="portfolio-item">
+                  <div className="hover-bg"> <a href={portfolio03small} title="">
+                    <img src={portfolio03small} className="img-responsive" alt="" /> </a> </div>
+                </div>
+              </div>
+              <div className="col-sm-6 col-md-4 col-lg-4">
+                <div className="portfolio-item">
+                  <div className="hover-bg"> <a href={portfolio04small} title="">
+                    <img src={portfolio04small} className="img-responsive" alt="" /> </a> </div>
+                </div>
+              </div> */}
+              <div className="col-sm-6 col-md-4 col-lg-4">
+                <div className="portfolio-item">
+                  <div className="hover-bg"> <a href={portfolio05small} title="">
+                    <img src={portfolio05small} className="img-responsive" alt="" /> </a> </div>
+                </div>
+              </div>
+              {/* <div className="col-sm-6 col-md-4 col-lg-4">
+                <div className="portfolio-item">
+                  <div className="hover-bg"> <a href={portfolio06small} title="">
+                    <img src={portfolio06small} className="img-responsive" alt="" /> </a> </div>
+                </div>
+              </div>
+              <div className="col-sm-6 col-md-4 col-lg-4">
+                <div className="portfolio-item">
+                  <div className="hover-bg"> <a href={portfolio07small} title="">
+                    <img src={portfolio07small} className="img-responsive" alt="" /> </a> </div>
+                </div>
+              </div> */}
+              <div className="col-sm-6 col-md-4 col-lg-4">
+                <div className="portfolio-item">
+                  <div className="hover-bg"> <a href={portfolio08small} title="">
+                    <img src={portfolio08small} className="img-responsive" alt="" /> </a> </div>
+                </div>
+              </div>
+              {/* <div className="col-sm-6 col-md-4 col-lg-4">
+                <div className="portfolio-item">
+                  <div className="hover-bg"> <a href={portfolio09small} title="">
+                    <img src={portfolio09small} className="img-responsive" alt="" /> </a> </div>
+                </div>
+              </div> */}
+              {/* <div className="col-sm-6 col-md-4 col-lg-4">
+                <div className="portfolio-item">
+                  <div className="hover-bg"> <a href={portfolio10small} title="">
+                    <img src={portfolio10small} className="img-responsive" alt="" /> </a> </div>
+                </div>
+              </div> */}
+              {/* <div className="col-sm-6 col-md-4 col-lg-4">
+                <div className="portfolio-item">
+                  <div className="hover-bg"> <a href={portfolio11small} title="">
+                    <img src={portfolio11small} className="img-responsive" alt="" /> </a> </div>
+                </div>
+              </div> */}
+              {/* <div className="col-sm-6 col-md-4 col-lg-4">
+                <div className="portfolio-item">
+                  <div className="hover-bg"> <a href={portfolio12small} title="">
+                    <img src={portfolio12small} className="img-responsive" alt="" /> </a> </div>
+                </div>
+              </div> */}
             </div>
           </div>
-          <div class="row">
-            <div class="portfolio-items">
-              <div class="col-sm-6 col-md-4 col-lg-4 breakfast">
-                <div class="portfolio-item">
-                  <div class="hover-bg"> <a href={portfolio01small} title="Dish Name" data-lightbox-gallery="gallery1">
-                    <div class="hover-text">
-                      <h4>Dish Name</h4>
-                    </div>
-                    <img src={portfolio01small} class="img-responsive" alt="Project Title" /> </a> </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4 col-lg-4 dinner">
-                <div class="portfolio-item">
-                  <div class="hover-bg"> <a href={portfolio02small} title="Dish Name" data-lightbox-gallery="gallery1">
-                    <div class="hover-text">
-                      <h4>Dish Name</h4>
-                    </div>
-                    <img src={portfolio02small} class="img-responsive" alt="Project Title" /> </a> </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4 col-lg-4 breakfast">
-                <div class="portfolio-item">
-                  <div class="hover-bg"> <a href={portfolio03small} title="Dish Name" data-lightbox-gallery="gallery1">
-                    <div class="hover-text">
-                      <h4>Dish Name</h4>
-                    </div>
-                    <img src={portfolio03small} class="img-responsive" alt="Project Title" /> </a> </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4 col-lg-4 breakfast">
-                <div class="portfolio-item">
-                  <div class="hover-bg"> <a href={portfolio04small} title="Dish Name" data-lightbox-gallery="gallery1">
-                    <div class="hover-text">
-                      <h4>Dish Name</h4>
-                    </div>
-                    <img src={portfolio04small} class="img-responsive" alt="Project Title" /> </a> </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4 col-lg-4 dinner">
-                <div class="portfolio-item">
-                  <div class="hover-bg"> <a href={portfolio05small} title="Dish Name" data-lightbox-gallery="gallery1">
-                    <div class="hover-text">
-                      <h4>Dish Name</h4>
-                    </div>
-                    <img src={portfolio05small} class="img-responsive" alt="Project Title" /> </a> </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4 col-lg-4 lunch">
-                <div class="portfolio-item">
-                  <div class="hover-bg"> <a href={portfolio06small} title="Dish Name" data-lightbox-gallery="gallery1">
-                    <div class="hover-text">
-                      <h4>Dish Name</h4>
-                    </div>
-                    <img src={portfolio06small} class="img-responsive" alt="Project Title" /> </a> </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4 col-lg-4 lunch">
-                <div class="portfolio-item">
-                  <div class="hover-bg"> <a href={portfolio07small} title="Dish Name" data-lightbox-gallery="gallery1">
-                    <div class="hover-text">
-                      <h4>Dish Name</h4>
-                    </div>
-                    <img src={portfolio07small} class="img-responsive" alt="Project Title" /> </a> </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4 col-lg-4 breakfast">
-                <div class="portfolio-item">
-                  <div class="hover-bg"> <a href={portfolio08small} title="Dish Name" data-lightbox-gallery="gallery1">
-                    <div class="hover-text">
-                      <h4>Dish Name</h4>
-                    </div>
-                    <img src={portfolio08small} class="img-responsive" alt="Project Title" /> </a> </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4 col-lg-4 dinner">
-                <div class="portfolio-item">
-                  <div class="hover-bg"> <a href={portfolio09small} title="Dish Name" data-lightbox-gallery="gallery1">
-                    <div class="hover-text">
-                      <h4>Dish Name</h4>
-                    </div>
-                    <img src={portfolio09small} class="img-responsive" alt="Project Title" /> </a> </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4 col-lg-4 lunch">
-                <div class="portfolio-item">
-                  <div class="hover-bg"> <a href={portfolio10small} title="Dish Name" data-lightbox-gallery="gallery1">
-                    <div class="hover-text">
-                      <h4>Dish Name</h4>
-                    </div>
-                    <img src={portfolio10small} class="img-responsive" alt="Project Title" /> </a> </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4 col-lg-4 lunch">
-                <div class="portfolio-item">
-                  <div class="hover-bg"> <a href={portfolio11small} title="Dish Name" data-lightbox-gallery="gallery1">
-                    <div class="hover-text">
-                      <h4>Dish Name</h4>
-                    </div>
-                    <img src={portfolio11small} class="img-responsive" alt="Project Title" /> </a> </div>
-                </div>
-              </div>
-              <div class="col-sm-6 col-md-4 col-lg-4 breakfast">
-                <div class="portfolio-item">
-                  <div class="hover-bg"> <a href={portfolio12small} title="Dish Name" data-lightbox-gallery="gallery1">
-                    <div class="hover-text">
-                      <h4>Dish Name</h4>
-                    </div>
-                    <img src={portfolio12small} class="img-responsive" alt="Project Title" /> </a> </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        
 
         {/* <!-- Team Section --> */}
-        <div id="team" class="text-center">
-          <div class="overlay">
-            <div class="container">
-              <div class="col-md-10 col-md-offset-1 section-title">
+        <div id="team" className="text-center">
+          <div className="overlay">
+            <div className="container">
+              <div className="col-md-10 col-md-offset-1 section-title">
                 <h2>Personal Projects</h2>
                 <hr />
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed dapibus leonec.</p>
               </div>
               <div id="row">
-                <div class="col-md-4 team">
-                  <div class="thumbnail">
-                    <div class="team-img"><img src={team01} alt="..." /></div>
-                    <div class="caption">
+                <div className="col-md-4 team">
+                  <div className="thumbnail">
+                    <div className="team-img"><img src={team01} alt="..." /></div>
+                    <div className="caption">
                       <h3>Mike Doe</h3>
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam.</p>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 team">
-                  <div class="thumbnail">
-                    <div class="team-img"><img src={team02} alt="..." /></div>
-                    <div class="caption">
+                <div className="col-md-4 team">
+                  <div className="thumbnail">
+                    <div className="team-img"><img src={team02} alt="..." /></div>
+                    <div className="caption">
                       <h3>Chris Doe</h3>
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam.</p>
                     </div>
                   </div>
                 </div>
-                <div class="col-md-4 team">
-                  <div class="thumbnail">
-                    <div class="team-img"><img src={team03} alt="..." /></div>
-                    <div class="caption">
+                <div className="col-md-4 team">
+                  <div className="thumbnail">
+                    <div className="team-img"><img src={team03} alt="..." /></div>
+                    <div className="caption">
                       <h3>Ethan Doe</h3>
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam.</p>
                     </div>
@@ -384,76 +277,76 @@ class App extends Component {
           </div>
         </div>
         {/* <!-- Call Reservation Section --> */}
-        <div id="call-reservation" class="text-center">
-          <div class="container">
+        <div id="call-reservation" className="text-center">
+          <div className="container">
             <h2>Interested in how I can help you? Email <a href="mailto:bdburns6389@gmail.com">bdburns6389@gmail.com</a></h2>
           </div>
         </div>
         {/* <!-- Contact Section --> */}
-        <div id="contact" class="text-center">
-          <div class="container">
-            <div class="section-title text-center">
+        <div id="contact" className="text-center">
+          <div className="container">
+            <div className="section-title text-center">
               <h2>Contact Form</h2>
               <hr />
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed.</p>
             </div>
-            <div class="col-md-10 col-md-offset-1">
-              <form name="sentMessage" id="contactForm" novalidate>
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <input type="text" id="name" class="form-control" placeholder="Name" required="required" />
-                      <p class="help-block text-danger"></p>
+            <div className="col-md-10 col-md-offset-1">
+              <form name="sentMessage" id="contactForm" noValidate>
+                <div className="row">
+                  <div className="col-md-6">
+                    <div className="form-group">
+                      <input type="text" id="name" className="form-control" placeholder="Name" required="required" />
+                      <p className="help-block text-danger"></p>
                     </div>
                   </div>
-                  <div class="col-md-6">
-                    <div class="form-group">
-                      <input type="email" id="email" class="form-control" placeholder="Email" required="required" />
-                      <p class="help-block text-danger"></p>
+                  <div className="col-md-6">
+                    <div className="form-group">
+                      <input type="email" id="email" className="form-control" placeholder="Email" required="required" />
+                      <p className="help-block text-danger"></p>
                     </div>
                   </div>
                 </div>
-                <div class="form-group">
-                  <textarea name="message" id="message" class="form-control" rows="4" placeholder="Message" required></textarea>
-                  <p class="help-block text-danger"></p>
+                <div className="form-group">
+                  <textarea name="message" id="message" className="form-control" rows="4" placeholder="Message" required></textarea>
+                  <p className="help-block text-danger"></p>
                 </div>
                 <div id="success"></div>
-                <button type="submit" class="btn btn-custom btn-lg">Send Message</button>
+                <button type="submit" className="btn btn-custom btn-lg">Send Message</button>
               </form>
             </div>
           </div>
         </div>
         <div id="footer">
-          <div class="container text-center">
-            <div class="col-md-4">
+          <div className="container text-center">
+            <div className="col-md-4">
               <h3>Address</h3>
-              <div class="contact-item">
+              <div className="contact-item">
                 <p>25976 183rd Street,</p>
                 <p>Leavenworth Kansas 66048</p>
               </div>
             </div>
-            <div class="col-md-4">
+            <div className="col-md-4">
               <h3>Further Links</h3>
-              <div class="contact-item">
+              <div className="contact-item">
                 <p><a href='https://www.linkedin.com/in/bdburns6389'>https://www.linkedin.com/in/bdburns6389</a></p>
                 <p><a href='https://www.github.com/bdburns6389'>https://www.github.com/bdburns6389</a></p>
               </div>
             </div>
-            <div class="col-md-4">
+            <div className="col-md-4">
               <h3>Contact Info</h3>
-              <div class="contact-item">
+              <div className="contact-item">
                 <p>Phone: 913.240.5841</p>
                 <p>Email: bdburns6389@gmail.com</p>
               </div>
             </div>
           </div>
-          <div class="container-fluid text-center copyrights">
-            <div class="col-md-8 col-md-offset-2">
-              <div class="social">
+          <div className="container-fluid text-center copyrights">
+            <div className="col-md-8 col-md-offset-2">
+              <div className="social">
                 <ul>
-                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                  <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                  <li><a href="#"><i className="fa fa-facebook"></i></a></li>
+                  <li><a href="#"><i className="fa fa-twitter"></i></a></li>
+                  <li><a href="#"><i className="fa fa-google-plus"></i></a></li>
                 </ul>
               </div>
               <p>&copy; Built and Maintained By  <a href="http://www.bdburns6389.com" rel="nofollow">Brian Burns</a></p>
