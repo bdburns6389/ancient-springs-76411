@@ -162,7 +162,7 @@ class App extends Component {
             <div className="section-title text-center">
               <h2>Contact Form</h2>
               <hr />
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed.</p>
+              <p>Contact Form Coming Soon!  Feel Free To Email Me Anytime Above.</p>
             </div>
             <div className="col-md-10 col-md-offset-1">
               <form name="sentMessage" id="contactForm" noValidate>
