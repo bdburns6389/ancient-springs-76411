@@ -5,18 +5,9 @@ import team01 from './img/team/01.jpg';
 import team02 from './img/team/02.jpg';
 import team03 from './img/team/03.jpg';
 import about from "./img/about.jpg";
-import portfolio01small from "./img/portfolio/01-small.png";
 import portfolio02small from "./img/portfolio/02-small.png";
-import portfolio03small from "./img/portfolio/03-small.png";
-import portfolio04small from "./img/portfolio/04-small.png";
 import portfolio05small from "./img/portfolio/05-small.png";
-import portfolio06small from "./img/portfolio/06-small.png";
-import portfolio07small from "./img/portfolio/07-small.png";
 import portfolio08small from "./img/portfolio/08-small.png";
-import portfolio09small from "./img/portfolio/09-small.png";
-import portfolio10small from "./img/portfolio/10-small.png";
-import portfolio11small from "./img/portfolio/11-small.png";
-import portfolio12small from "./img/portfolio/12-small.png";
 
 class App extends Component {
   render() {
