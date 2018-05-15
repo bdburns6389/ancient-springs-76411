@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 
 
 class Footer extends Component {
@@ -17,8 +16,8 @@ class Footer extends Component {
                     <div className="col-md-4">
                         <h3>Further Links</h3>
                         <div className="contact-item">
-                            <p><a href='https://www.linkedin.com/in/bdburns6389'>https://www.linkedin.com/in/bdburns6389</a></p>
-                            <p><a href='https://www.github.com/bdburns6389'>https://www.github.com/bdburns6389</a></p>
+                            <p><a href={this.props.linkedIn}>{this.props.linkedIn}</a></p>
+                            <p><a href={this.props.github}>{this.props.github}</a></p>
                         </div>
                     </div>
                     <div className="col-md-4">
