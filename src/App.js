@@ -17,17 +17,29 @@ import CompanyBio from './components/CompanyBio';
 class App extends Component {
   render() {
     return (
-      <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-        <Navbar />
+      <div>
+        <Navbar name= 'Brian Burns' 
+                navbarItems= {['About','Development Philosophy','What I Do','Contact']} />
+
         <Header />
-        <About />
+
+        <About  title1='My Story'
+                title2='How I Can Help You'/>
+
         <CompanyBio />
+
         <TechStack />
+
         <EmailMe />
+
         <Contact />
+
         <Footer linkedIn='https://www.linkedin.com/in/bdburns6389'
-                github = 'https://www.github.com/bdburns6389'/>
-      </body>
+                github = 'https://www.github.com/bdburns6389'
+                phone= '913.240.5841'
+                address= {['25976 183rd Street','Leavenworth, KS 66048']}
+                email= 'bdburns6389@gmail.com'/>
+      </div>
     );
   }
 }

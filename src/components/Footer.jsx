@@ -9,8 +9,8 @@ class Footer extends Component {
                     <div className="col-md-4">
                         <h3>Address</h3>
                         <div className="contact-item">
-                            <p>25976 183rd Street,</p>
-                            <p>Leavenworth Kansas 66048</p>
+                            <p>{this.props.address[0]},</p>
+                            <p>{this.props.address[1]}</p>
                         </div>
                     </div>
                     <div className="col-md-4">
@@ -23,8 +23,8 @@ class Footer extends Component {
                     <div className="col-md-4">
                         <h3>Contact Info</h3>
                         <div className="contact-item">
-                            <p>Phone: 913.240.5841</p>
-                            <p>Email: bdburns6389@gmail.com</p>
+                            <p>Phone: {this.props.phone}</p>
+                            <p>Email: {this.props.email}</p>
                         </div>
                     </div>
                 </div>
