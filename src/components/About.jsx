@@ -16,7 +16,7 @@ class About extends Component {
                                 <h2>{this.props.title1}</h2>
                                 <hr />
                                 <p>I have enjoyed programming websites from a young age, and have experience in building front facing websites,
-                                    as well as server-side rendering applications, as well as database manipulation programs.
+                                    server-side rendering applications, and database manipulation programs.
                                 </p>
                                 <h3>{this.props.title2}</h3>
                                 <p>I build websites with a simple, clean, and elegant look.  I focus on exactly what you want to say
