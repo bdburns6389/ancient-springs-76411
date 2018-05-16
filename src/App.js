@@ -32,7 +32,7 @@ class App extends Component {
 
         <EmailMe />
 
-        <Contact />
+        <Contact /> {/* Turn this into the portfolio page*/}
 
         <Footer linkedIn='https://www.linkedin.com/in/bdburns6389'
                 github = 'https://www.github.com/bdburns6389'
