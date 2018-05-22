@@ -6,7 +6,7 @@ import './css/style.css';
 // import team03 from './img/team/03.png';
 // import about from "./img/about.jpg";
 import About from './components/About';
-import Contact from './components/Contact';
+//import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import Header from './components/Header';
