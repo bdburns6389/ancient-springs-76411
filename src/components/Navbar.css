@@ -26,7 +26,7 @@
     line-height: 20px;
   }
   .navbar-default .navbar-nav > li > div {
-    color: rgb(119, 119, 119);
+    background-color: black;
   }
   .navbar-collapse.collapse {
     display: none;

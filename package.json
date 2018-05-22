@@ -23,5 +23,13 @@
   "devDependencies": {
     "css-loader": "^0.28.11",
     "style-loader": "^0.21.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bdburns6389/ancient-springs-76411.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bdburns6389/ancient-springs-76411/issues"
+  },
+  "homepage": "https://github.com/bdburns6389/ancient-springs-76411#readme"
 }

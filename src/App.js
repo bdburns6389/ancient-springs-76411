@@ -13,6 +13,7 @@ import Header from './components/Header';
 import TechStack from './components/TechStack';
 import EmailMe from './components/EmailMe';
 import CompanyBio from './components/CompanyBio';
+import Portfolio from './components/Portfolio';
 
 class App extends Component {
   render() {
@@ -32,7 +33,9 @@ class App extends Component {
 
         <EmailMe />
 
-        <Contact /> {/* Turn this into the portfolio page*/}
+        {/* <Contact /> Turn this into the portfolio page */}
+
+        <Portfolio />
 
         <Footer linkedIn='https://www.linkedin.com/in/bdburns6389'
                 github = 'https://www.github.com/bdburns6389'

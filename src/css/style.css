@@ -242,6 +242,7 @@ header .intro-text {
 /* Menu Section */
 #restaurant-menu {
 	padding: 0 0 60px 0;
+	background-color: #333333;
 }
 #restaurant-menu .section-title {
 	background: #444 url(../img/menu-bg.jpg) center center no-repeat fixed;

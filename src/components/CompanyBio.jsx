@@ -22,7 +22,7 @@ class CompanyBio extends Component {
                                     <div className="menu-item-description">You know what you want to tell your customers, let me help
                                     get your message across with out the need for superfluous design that only gets in the way of
                                     communicating your message.
-                    </div>
+                                </div>
                                 </div>
                             </div>
                         </div>
