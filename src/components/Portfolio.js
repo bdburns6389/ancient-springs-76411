@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import team01 from '../img/team/01.png';
+import team01 from '../img/portfolio/WorkoutTracker.jpg';
 // import team02 from '../img/team/02.png';
 // import team03 from '../img/team/03.png';
 
@@ -20,7 +20,7 @@ class Portfolio extends Component {
               <div className="col-md-4 col-md-offset-4 team">
               {/* Get Rid of col-md-offset-4 once there are more divs */}
                 <div className="thumbnail">
-                  <div className="team-img"><img src={team01} alt="..." /></div>
+                  <a href="https://workoutgenerator20180519010606.azurewebsites.net/"><div className="team-img"><img src={team01} alt="..." /></div></a>
                   <div className="caption">
                     <h3>Workout Tracker</h3>
                     <p>A simple app that allows the user to create exercises and workouts, and keep daily records for any workout.</p>

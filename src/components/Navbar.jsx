@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 class Navbar extends Component {
   render() {
     return (
-      <nav id="menu" className="navbar navbar-default navbar-fixed-top">
+      <nav id="menu" className="navbar transparent navbar-inverse navbar-default navbar-fixed-top">
         <div className="container">
           {/* <!-- Brand and toggle get grouped for better mobile display --> */}
           <div className="navbar-header">
@@ -13,7 +13,7 @@ class Navbar extends Component {
           </div>
           {/* <!-- Collect the nav links, forms, and other content for toggling --> */}
           <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul className="nav navbar-nav navbar-right">
+            <ul className="nav navbar-nav navbar-inner navbar-right">
               <li><a href="#about" className="page-scroll">{this.props.navbarItems[0]}</a></li>
               <li><a href="#restaurant-menu" className="page-scroll">{this.props.navbarItems[1]}</a></li>
               <li><a href="#team" className="page-scroll">{this.props.navbarItems[2]}</a></li>
